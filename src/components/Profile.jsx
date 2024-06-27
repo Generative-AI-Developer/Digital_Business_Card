@@ -1,3 +1,8 @@
+
+import Mail from '../images/Mail.png';
+import Linkedin from '../images/linkedin.png';
+
+
 const Profile = () => {
   return (
     <div>
@@ -8,12 +13,12 @@ const Profile = () => {
         <h5 className="h5">laurasmith.website</h5>
         <div className="button">
           <button className="button-email">
-            <img src="src/images/Mail.png" alt="" />
+            <img src={Mail} alt="" />
             <span>Email</span>
           </button>
           <button className="button-linkedin">
               
-            <img src="src/images/linkedin.png" alt="" />
+            <img src={Linkedin} alt="" />
             <span>LinkedIn </span>
 
 

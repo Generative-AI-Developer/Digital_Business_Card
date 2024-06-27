@@ -1,9 +1,11 @@
 
+import Profileimage from '../images/Profileimage.png'
+
 const Header = () => {
   return (
     <div className="img">
        <img
-          src="src/images/image.png"
+          src={Profileimage}
           alt="image"
           height={"300px"}
           width={"350px"}
