@@ -1,0 +1,241 @@
+/* 
+.main{
+    background: #000;
+}
+
+.digitalcard-main{
+
+    width: 550px;
+    height: 868px;
+    top: 53px;
+    left: 65px;
+    padding: 44px 117px 44px 116px;
+    gap: 0px;
+    opacity: 0px;
+    color: #c2c7db
+    
+    }
+  
+    .image{
+        height: 317px;
+        width: 317px;
+
+gap: 0px;
+border-radius: 10px 10px 0px 0px;
+opacity: 0px;
+
+    }
+
+.h1{
+    width: 178.06px;
+height: 25.81px;
+top: 382px;
+left: 186px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 25px;
+font-weight: 700;
+line-height: 30.26px;
+text-align: center;
+color: #FFFFFF;
+}
+.h3{
+    width: 178.06px;
+    height: 14.19px;
+    top: 414px;
+    left: 186px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+font-size: 12.8px;
+font-weight: 400;
+line-height: 15.49px;
+text-align: center;
+color: #F3BF99;
+
+}
+
+.h5{
+
+    width: 228px;
+height: 16px;
+top: 437px;
+left: 161px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 10.24px;
+font-weight: 400;
+line-height: 15.36px;
+text-align: center;
+color: #F5F5F5;
+
+}
+
+.button-email{
+width: Fixed (115px)px;
+height: Hug (34px)px;
+top: 468px;
+left: 151px;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+border-radius: 6px 0px 0px 0px;
+border: 1px 0px 0px 0px;
+opacity: 0px;
+background: #FFFFFF;
+border: 1px solid #D1D5DB
+
+}
+
+.button-linkedin{
+    width: Fixed (115px)px;
+height: Hug (34px)px;
+top: 468px;
+left: 283px;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+border-radius: 6px 0px 0px 0px;
+opacity: 0px;
+background: #5093E2;
+box-shadow: 0px 1px 2px 0px #0000000D;
+
+} */
+
+body{
+    max-width: 100%;
+    background: #0e0d0d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main{
+    margin-top: -8px;
+    background: #1A1B21;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.profile{
+    max-width: 300px;
+    
+}
+.img{
+    margin-top: 400px;
+    overflow: hidden;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+
+
+
+
+}
+
+.footer{
+    background: #D5D4D8;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: start;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+h1{
+    margin: 0;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+
+h3{
+  margin: 0;  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+h5{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+  }
+
+  .main-heading{
+    font-size: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  }
+  p{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+  }
+
+  .main-about{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+  }
+
+  .main-intrests{
+    margin-top: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 20px;
+
+  }
+
+  .button{
+    display: flex;
+    gap: 50px;
+    margin-top: 25px;
+  }
+
+  .button-email{
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size:16px;
+    background: #FFFFFF;    border-radius: 10px;
+    border-radius: 8px;
+    border: 1px solid #D1D5DB;
+    
+
+
+
+  }
+
+  .button-linkedin{
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    font-size:16px;
+    background: #19bef0;
+    border-radius: 8px;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: 1px solid #19bef0
+    
+  }
+
+  .card-bg{
+    background: #23252C;
+    max-width: 1000px;
+  }
+
