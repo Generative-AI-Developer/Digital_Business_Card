@@ -6,7 +6,7 @@ import './DigitalCard.css'
 
 
 
-import ProfilePic from './components/ProfilePic'
+import ProfilePic from './components/Profile'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
@@ -14,7 +14,7 @@ function App() {
   return (
     <>
     <Header/>
-    <ProfilePic/>
+    <Profile/>
     <Footer/>
 
     </>

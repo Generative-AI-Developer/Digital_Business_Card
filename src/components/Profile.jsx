@@ -1,4 +1,4 @@
-const ProfilePic = () => {
+const Profile = () => {
   return (
     <div>
 
@@ -39,6 +39,6 @@ const ProfilePic = () => {
   );
 };
 
-export default ProfilePic;
+export default Profile;
 
 
