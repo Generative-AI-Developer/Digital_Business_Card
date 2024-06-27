@@ -6,7 +6,7 @@ import './DigitalCard.css'
 
 
 
-import ProfilePic from './components/Profile'
+import Profile from './components/Profile'
 import Footer from './components/Footer'
 import Header from './components/Header'
 
